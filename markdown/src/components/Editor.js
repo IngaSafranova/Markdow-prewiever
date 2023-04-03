@@ -5,7 +5,7 @@ import Preview from "./Preview";
 const Editor = () => {
   const initial = `# Let's get started!
 ## Start typing and change this
-[Look at this corgi!](https://media.istockphoto.com/photos/pretty-cute-corgi-dog-wearing-royal-costume-crown-on-white-background-picture-id1193592505?s=612x612)\\
+[Look at this dog!](https://www.freepik.com/free-photo/close-up-cute-dog-lying-grass_3212180.htm#query=dog&position=5&from_view=search&track=sph)\\
   
 \`This is marked library within react with dangerouslySetInnerHTML\`
 
@@ -22,7 +22,7 @@ const Editor = () => {
 
   And finally we can add images, like that corgi I linked earlier!
 
-  ![Corgi Image](https://media.istockphoto.com/photos/pretty-cute-corgi-dog-wearing-royal-costume-crown-on-white-background-picture-id1193592505?s=612x612)`;
+  ![Dog Image](https://www.freepik.com/free-photo/close-up-cute-dog-lying-grass_3212180.htm#query=dog&position=5&from_view=search&track=sph)`;
 
   const [input, setInput] = useState(initial);
   return (
